@@ -237,3 +237,90 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+@media screen and (max-width: 980px){
+
+.main-section {
+  float: left;
+  width: 100%;
+  max-width: 350px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #fff;
+  border: 1px solid #ddd;
+  margin-right:20px;
+}
+
+.auth-image {
+  float: left;
+  width: 250px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
+.sidebar {
+  float: left;
+  width: 100%;
+  max-width: 270px;
+  padding: 30px;
+  margin-bottom: 20px;
+  
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+}
+@media screen and (max-width: 768px){
+
+.sidebar {
+  position: relative;
+  width: 100%;
+  max-width: 650px; 
+  margin-bottom: 20px;  
+  background: #fff;
+  border: 1px solid #ddd;
+}
+.main-section {
+  float: left;
+  width: 100%;
+  max-width: 650px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+
+
+}
+@media screen and (max-width: 640px){
+
+
+.auth-image {
+  float: left;
+  width: 300px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
+.sidebar {
+  float: left;
+  width: 100%;
+  max-width: 350px;
+  padding: 30px;
+  margin-bottom: 20px;
+  
+  background: #fff;
+  border: 1px solid #ddd;
+}
+.main-section {
+  float: left;
+  width: 100%;
+  max-width: 350px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+}
